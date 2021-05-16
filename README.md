@@ -19,7 +19,7 @@ $ npm install -g store-screens
 $ store-screens COMMAND
 running command...
 $ store-screens (-v|--version|version)
-store-screens/1.0.0 darwin-x64 node-v12.16.1
+store-screens/1.1.0 darwin-x64 node-v12.16.1
 $ store-screens --help [COMMAND]
 USAGE
   $ store-screens COMMAND
@@ -28,28 +28,22 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`store-screens hello [FILE]`](#store-screens-hello-file)
+* [`store-screens generate`](#store-screens-generate)
 * [`store-screens help [COMMAND]`](#store-screens-help-command)
 
-## `store-screens hello [FILE]`
+## `store-screens generate`
 
-describe the command here
+generate ios and android screenshot variants for all screen in current folder
 
 ```
 USAGE
-  $ store-screens hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+  $ store-screens generate
 
 EXAMPLE
-  $ store-screens hello
-  hello world from ./src/hello.ts!
+  $ store-screens generate
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/alwex/store-screens/blob/v1.0.0/src/commands/hello.ts)_
+_See code: [src/commands/generate.ts](https://github.com/alwex/store-screens/blob/v1.1.0/src/commands/generate.ts)_
 
 ## `store-screens help [COMMAND]`
 
